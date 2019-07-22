@@ -5,6 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
+  SELECT MIN(net_worth) FROM cats;
 end
 
 def average_student_gpa
